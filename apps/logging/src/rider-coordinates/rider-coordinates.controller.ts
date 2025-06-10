@@ -10,8 +10,8 @@ export class RiderCoordinatesController {
   ) {}
 
   @Get()
-  getRiderCoordinates() {
-    return 'Rider coordinates';
+  async getRiderCoordinates() {
+    return this.riderCoordinatesService.getRiderCoordinates();
   }
 
   @Post()

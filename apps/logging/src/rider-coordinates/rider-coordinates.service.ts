@@ -11,6 +11,10 @@ export class RiderCoordinatesService {
     private riderCoordinateModel: Model<RiderCoordinate>,
   ) {}
 
+  async getRiderCoordinates() {
+    return await this.riderCoordinateModel.find();
+  }
+
   async saveRiderCoordinates(createCoordinateDTO: CreateCoordinatesDTO) {
     return await this.riderCoordinateModel.create(createCoordinateDTO);
   }
