@@ -1,0 +1,12 @@
+# GET http://localhost:3002/rider-coordinates
+GET http://localhost:3002/rider-coordinates
+
+###
+
+# POST http://localhost:3002/rider-coordinates
+# POST http://localhost:3002/rider-coordinates
+# Content-Type: application/json
+
+# {
+#   "riderId": "123",
+# }
