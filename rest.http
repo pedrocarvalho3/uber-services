@@ -4,9 +4,11 @@ GET http://localhost:3002/rider-coordinates
 ###
 
 # POST http://localhost:3002/rider-coordinates
-# POST http://localhost:3002/rider-coordinates
-# Content-Type: application/json
+POST http://localhost:3002/rider-coordinates
+Content-Type: application/json
 
-# {
-#   "riderId": "123",
-# }
+{
+  "lat": 123.123,
+  "lng": 123.1234,
+  "rider": "123"
+}
